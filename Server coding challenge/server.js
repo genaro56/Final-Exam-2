@@ -32,7 +32,7 @@ app.post('/api/add-movie/', [validateToken, jsonParser], (req, res) => {
         throw new Error(err)
     })
 })
-app.get('api/movies/', validateToken, (req, res) => {
+app.get('/api/movies/', validateToken, (req, res) => {
     return Movies.getMovies()
     .then(res => {
         if(res.length == 0) {
