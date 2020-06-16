@@ -1,2 +1,4 @@
-/moviedex-client/node_modules
-/moviedex-server/node_modules
+/Client coding challenge/node_modules
+/Client coding challenge/package-lock.json
+/Server coding challenge/node_modules
+/Server coding challenge/package-lock.json
