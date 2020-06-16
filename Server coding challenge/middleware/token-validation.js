@@ -1,4 +1,4 @@
-function validateToken(req, res) {
+function validateToken(req, res, next) {
     
     /* 
         Your code goes here
