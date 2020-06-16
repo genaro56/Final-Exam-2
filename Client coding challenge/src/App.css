@@ -1,0 +1,22 @@
+* {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.App {
+  padding: 55px;
+  display: flex;
+  flex-direction: column;
+}
+
+.moviesForm {
+  background-color: gray;
+  display: flex;
+  flex-direction: row;
+  @media screen (min-width 500px) {
+    flex-direction: column;
+  }
+}
+
+.moviesForm > button {
+  margin-top: 5px;
+}
