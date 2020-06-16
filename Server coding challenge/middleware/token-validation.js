@@ -1,7 +1,7 @@
 const { TOKEN } = require('../config')
 function validateToken(req, res, next) {
     console.log(req.headers);
-    const { token } = req.headers.authorization;
+    const token = req.headers.authorization;
     if(!token) {
         res.statusMessage = "You need to send the 'session-exam-token'."
         return res.status(401).end();
