@@ -8,10 +8,16 @@ class App extends React.Component {
   constructor( props ){
     super( props );
     this.state = {
-      moviedex : []
+      /*
+        Your code goes here
+      */
     }
   }
-
+  
+  /*
+    Your code goes here
+  */
+  
   componentDidMount(){
     /*
       Your code goes here
